@@ -27,11 +27,7 @@ export default function App() {
                 <a>{a.nationality} </a>
                 <p className="awards">{a.awards}</p>
               </div>
-              <div className="container-bio">
-                {/* <a>Nationality: </a> */}
-
-                <p>{a.awards}</p>
-              </div>
+              <div className="container-bio">{/* <a>Nationality: </a> */}</div>
               <p>{a.biography}</p>
             </div>
           </div>
